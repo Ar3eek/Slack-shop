@@ -39,8 +39,8 @@ export default {
 </script>
 
 <template>
-  <aside class="">
-    <div class="">
+  <aside>
+    <div>
       <div class="flex justify-between items-center ">
         <p class="text-black py-[4px] text-[0.9rem]">Kategoria</p>
         <img src="../assets/minus.png" alt="minus" class="px-[8px] py-[8px]"/>

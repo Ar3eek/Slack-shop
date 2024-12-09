@@ -44,7 +44,7 @@ export default {
         </div>
         <router-link to="/cart" class="border rounded-[5px] flex items-center px-[17px] py-[8px] pointer">
           <img src="/src/assets/shop2.png" alt="shop" class="">
-          <button  class="pl-[4px]">{{ totalCartQuantity }}</button>
+          <button class="pl-[4px]">{{ totalCartQuantity }}</button>
         </router-link>
       </div>
     </nav>
@@ -53,20 +53,20 @@ export default {
     <div class=" gap-x-[20px] flex-wrap grid grid-cols-3 sm:flex pb-[30px] md:pb-0 ">
       <div class="  flex ">
         <img src="/src/assets/up.png" alt="up" class="h-[16px] pr-[4px]  ">
-        <button class=" ">Wszystkie</button>
+        <button>Wszystkie</button>
       </div>
-      <button class=" ">Kategoria 1</button>
-      <button class=" ">Kategoria 2</button>
-      <button class=" ">Kategoria 3</button>
-      <button class=" ">Kategoria 4</button>
-      <button class=" ">Kategoria 5</button>
-      <button class=" ">Kategoria 6</button>
-      <button class=" ">Kategoria 7</button>
-      <button class=" ">Kategoria 8</button>
+      <button>Kategoria 1</button>
+      <button>Kategoria 2</button>
+      <button>Kategoria 3</button>
+      <button>Kategoria 4</button>
+      <button>Kategoria 5</button>
+      <button>Kategoria 6</button>
+      <button>Kategoria 7</button>
+      <button>Kategoria 8</button>
     </div>
     <div class="flex gap-x-[10px] flex-wrap flex-col md:flex-row md:pt-[20px] lg:pt-0">
-      <button class="">Nowości</button>
-      <button class="">Wyprzedaż</button>
+      <button>Nowości</button>
+      <button>Wyprzedaż</button>
     </div>
   </div>
   <article class="w-full mx-auto  flex   lg:max-w-[965px] xl:max-w-[1175px] 2xl:max-w-[1065px] justify-center md:justify-start md:px-[20px] lg:px-0 ">

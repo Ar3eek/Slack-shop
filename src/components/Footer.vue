@@ -1,6 +1,6 @@
 <template>
   <footer class=" flex flex-col  pt-[76px] w-full flex-wrap items-center border-t   ">
-    <div class="    ">
+    <div >
       <div class=" flex flex-wrap 2xl:gap-x-[100px] md:gap-x-[30px] lg:gap-x-[100px] gap-y-[30px]  pb-[30px] justify-center  items-start ">
         <div class=" ">
           <img src="../assets/logo23.png " alt="logo2" class="md:h-[20px] h-[25px]  "/>
@@ -13,7 +13,7 @@
             <button class="text-[0.7rem]">Kontakt</button>
             <button class="text-[0.7rem]">Biuro prasowe</button>
           </div>
-          <div class="   ">
+          <div>
            <div class="flex flex-col gap-y-[5px]">
              <button class="text-gray-600  font-bold text-[0.9rem] ">Obsługa klienta </button>
              <button class="text-[0.7rem]">Regulamin Sklepu</button>
@@ -23,7 +23,7 @@
              <button class="text-[0.7rem] md:flex justify-center hidden">RODO</button>
            </div>
           </div>
-          <div class="  ">
+          <div >
             <div class="flex flex-col gap-y-[5px] ">
               <button class="text-gray-600  text-[0.9rem] font-bold ">Promocje i rabaty </button>
               <button class="text-[0.7rem] ">Gift card</button>
@@ -38,7 +38,7 @@
             <button class="text-[0.7rem]" >ul.Magnacka 15A</button>
             <button class="text-[0.7rem]" >80-180 Kowale</button>
           </div>
-          <div class="flex    ">
+          <div class="flex">
             <img src="../assets/facebook.png" alt="facebook" class="h-[20px] "/>
             <img src="../assets/instagram.png" alt="instagram" class="h-[20px] px-[24px]"/>
             <img src="../assets/twitter.png" alt="twitter" class="h-[20px]"/>

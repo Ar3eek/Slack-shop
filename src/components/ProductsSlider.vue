@@ -184,7 +184,6 @@ export default {
   max-width: 1110px;
 }
 
-
 .arrow {
   position: absolute;
   top: 50%;

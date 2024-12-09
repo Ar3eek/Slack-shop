@@ -17,7 +17,7 @@ export default {
 <template>
   <div class=" pb-[50px] ">
     <menu-bar2/>
-    <AsaideBox class="  mx-[20px] "/>
+    <AsaideBox class=" mx-[20px] "/>
   </div>
 
 </template>

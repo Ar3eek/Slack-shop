@@ -66,7 +66,6 @@ export default {
       <div v-if="products.length === 0">
         <p>Brak produktów do wyświetlenia.</p>
       </div>
-
       <div v-else class=" grid grid-cols-2  gap-x-[4px] sm:grid-cols-2 sm:gap-x-[40px] md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-x-[10px] lg:gap-x-[5px] xl:gap-x-[30px] gap-y-[20px]    ">
         <div v-for="product in products" :key="product.id" :class=" {'product-card': true, 'highlight': product.price === 19.99}  " class="md:w-[255px]    ">
           <div class="image-container ">
@@ -79,7 +78,6 @@ export default {
             <div class="flex items-center ">
               <button class="rounded-[5px] bg-green-500 text-white text-[0.9rem] px-[5px] py-[2px]">-15%</button>
               <p class="line-through pl-[5px] ">{{ product.price }} zł</p>
-
             </div>
             <div v-if="highlightProduct(product.price)">
               <button class="favorite-button border border-blue-500 rounded-[5px] py-[8px] px-[8px]  ">
@@ -117,7 +115,6 @@ export default {
         </div>
       </div>
     </main>
-
     <div class="flex md:justify-between pt-[40px] menu2 flex-wrap justify-center ">
       <div class="flex  text-[0.7rem] md:text-[0.9rem] productSide ">
         <button class="py-[8px] pr-[12px]">1</button>

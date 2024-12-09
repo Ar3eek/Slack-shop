@@ -73,7 +73,6 @@ export default {
       <p class="py-[15px] text-gray-700">Strona Główna</p>
       <p class="px-[8px]">→</p>
       <p class="py-[15px]">Pościel</p>
-
     </div>
   </article>
   </body>
