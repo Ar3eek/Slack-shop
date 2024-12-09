@@ -1,12 +1,12 @@
 <script >
-import FooterProducts from "../components/FooterProducts.vue";
+import Footer from "../components/Footer.vue";
 import TopNavUp from "../components/TopNavUp.vue";
 import ProductsProduct from "../components/ProductsProduct.vue";
 import TopNavP from "../components/TopNavP.vue";
 
 export default {
   components: {
-    FooterProducts,
+    Footer,
     TopNavUp,
     ProductsProduct,
     TopNavP,
@@ -24,7 +24,7 @@ export default {
       <ProductsProduct/>
     </div>
     <div class="flex flex-col items-center">
-      <FooterProducts />
+      <Footer />
     </div>
   </div>
 </template>

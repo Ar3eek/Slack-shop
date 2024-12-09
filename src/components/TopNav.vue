@@ -20,10 +20,10 @@ export default {
 <body class="m-0 p-0 ">
 <header class=" py-[19px]  flex flex-wrap mx-auto sticky top-0 z-50 bg-white        ">
   <nav class="w-full   flex justify-around 2xl:justify-center 2xl:gap-x-[180px] xl:gap-x-[50px]  items-center flex-wrap     ">
-    <div class=" flex flex-wrap items-center justify-center gap-x-[10px]  " >
-      <div class="   flex  gap-y-[20px] ">
+    <div class=" flex flex-wrap items-center justify-center   " >
+      <router-link to="/" class="pr-[29px]    flex  gap-y-[20px]">
         <img src="/src/assets/slacklogo.png" alt="slackLogo" class=" lg:h-[25px] lg:w-[100px] h-[40px] ">
-      </div>
+      </router-link>
       <div class=" flex items-center py-[4px] rounded-[5px]  border pr-[12px]   ">
         <img src="/src/assets/img_3.png" alt="" class="h-[16px] pl-[12px] pr-[8px]">
         <input type="text" placeholder="Szukaj" class="outline-none text-[0.7rem] min-w-[256px]">

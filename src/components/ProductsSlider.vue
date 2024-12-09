@@ -117,7 +117,7 @@ export default {
       <div v-if="products.length === 0">
         <p>Brak produktów do wyświetlenia.</p>
       </div>
-      <div v-else class="  md:gap-[30px]  lg:gap-x-[10px] gap-x-[8px] gap-y-[30px] md:gap-x-[30px] xl:gap-x-[30px] flex-col xl:flex-row  grid grid-cols-2   lg:grid md:grid-cols-2 xl:flex  ">
+      <div v-else class="  md:gap-[30px]  lg:gap-x-[10px] gap-x-[8px] gap-y-[30px] md:gap-x-[30px] xl:gap-x-[30px] flex-col xl:flex-row  grid grid-cols-2   lg:grid md:grid-cols-3 xl:flex  ">
         <div v-for="product in products" :key="product.id" :class=" {'product-card': true, 'highlight': product.price === 19.99} " class=" border md:w-[255px]">
           <!-- Zawartość karty produktu -->
           <div class="image-container  flex justify-center ">

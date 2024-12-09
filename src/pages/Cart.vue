@@ -1,10 +1,10 @@
 <script >
 
 import ProductsCart from "../components/ProductsCart.vue";
-import CartFooter from "../components/CartFooter.vue";
+import Footer from "../components/Footer.vue";
 export default {
   components: {
-    CartFooter,
+    Footer,
     ProductsCart,
   }
 }
@@ -14,7 +14,7 @@ export default {
   <div class="flex flex-col   ">
     <ProductsCart/>
     <div class="flex flex-col items-center">
-      <CartFooter />
+      <Footer />
     </div>
   </div>
 </template>

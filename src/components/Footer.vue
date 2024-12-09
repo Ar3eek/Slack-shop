@@ -1,7 +1,7 @@
 <template>
   <footer class=" flex flex-col  pt-[76px] w-full flex-wrap items-center border-t   ">
     <div class="    ">
-      <div class=" flex flex-wrap 2xl:gap-x-[100px] md:gap-x-[30px] lg:gap-x-[100px] gap-y-[30px]  pb-[30px] justify-center  items-start  ">
+      <div class=" flex flex-wrap 2xl:gap-x-[100px] md:gap-x-[30px] lg:gap-x-[100px] gap-y-[30px]  pb-[30px] justify-center  items-start ">
         <div class=" ">
           <img src="../assets/logo23.png " alt="logo2" class="md:h-[20px] h-[25px]  "/>
         </div>
@@ -46,11 +46,11 @@
         </div>
       </div>
     </div>
-    <div class=" flex  border-t w-full text-[0.7rem] justify-between xl:px-[140px] pt-[20px] px-[40px] ">
+    <div class=" flex  border-t w-full text-[0.7rem]  justify-between md:px-[140px] 2xl:px-0  2xl:justify-evenly  pt-[20px]  ">
       <div class="flex ">
         <p>&copy Copyright 2020 Slack, Inc. &#8213; All rights reserved.</p>
       </div>
-      <div class="">
+      <div class=" ">
         <button class="termsAndC">Terms and conditions</button>
         <button class="pl-[24px]">Privacy</button>
       </div>
