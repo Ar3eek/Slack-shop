@@ -40,4 +40,10 @@ https://github.com/antfu/vite-ssg
 - Build command `npm run build`
 - The above command generates a `dist` folder with all bundled files
 - All assets from `public` folder are copied to `dist/assets` folder
-  ![Alt text](./src/assets/homepage.png)  ![Alt text](./src/assets/loginlogoo.png)  ![Alt text](./src/assets/shoppage.png)  
+
+
+Photo ! :) 
+
+ ![Alt text](./src/assets/homepage.png)  ![Alt text](./src/assets/shoppage.png)   ![Alt text](./src/assets/loginlogoo.png) 
+
+ 
