@@ -42,7 +42,7 @@ https://github.com/antfu/vite-ssg
 - All assets from `public` folder are copied to `dist/assets` folder
 
 
-Photo ! :) 
+Photos ! :) 
 
  ![Alt text](./src/assets/homepage.png)  ![Alt text](./src/assets/shoppage.png)   ![Alt text](./src/assets/loginlogoo.png) 
 
